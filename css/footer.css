@@ -1,0 +1,110 @@
+:root{
+ /* colors  */
+ --Brightcolor:#FED40D;
+ --primaryBackground:#141414;
+ --secondaryBackground:#242424;
+ --greyLight: #242424;
+ --p:5px;
+ /* --m:5px; */
+ --mxw:1200px;
+
+ /* fonts */
+ --sFont:2.5rem;
+
+}
+
+footer{
+ display: flex;
+ width: 100vw;
+ justify-content: center;
+ margin: 0;
+ max-width: var(--mxw);
+}
+.footer-brand{
+ /* margin: 0 20 px; */
+ font-size: 1rem;
+ font-weight: bold;
+ color: #fff;
+}
+i{
+ margin: 0 5px;
+ cursor: pointer;
+ color: var(--grey);
+}
+.brand span{
+ color: var(--Brightcolor);
+ font-family: roboto;
+}
+.footer-div{
+ display: flex;
+ flex-direction: column;
+ margin: 0 5px;
+ /* background-color: red; */
+ color: #fff;
+ justify-content: flex-start;
+ align-items: center;
+ font-size: 0.9rem;
+}
+.footer-div ul{
+  cursor: pointer;
+}
+
+.footer-div a{
+ text-decoration: none;
+ color: #fff;
+}
+.footer-div a:hover{
+  color: var(--Brightcolor);
+}
+.footer-div li{
+ /* background-color: green; */
+ list-style: none;
+ margin: 10px 0;
+ font-family: roboto;
+}
+.footer-div:nth-child(1){
+ max-width: 5%;
+  width: 5%;
+}
+.footer-div:nth-child(2){
+ max-width: 15%;
+  width: 15%;
+ 
+}
+.footer-div:nth-child(3){
+ max-width: 15%;
+  width: 15%;
+ 
+}
+.footer-div:nth-child(4){
+ max-width: 5%;
+  width: 5%;
+ 
+}
+.footer-logo{
+  width: 4rem;
+}
+.footer-div:nth-child(5){
+ max-width: 30%;
+  width: 30%;
+ 
+}
+.footer-div:nth-child(6){
+ max-width: 5%;
+  width: 5%;
+}
+.footer-div .row{
+  /* background-color: green; */
+  border: 2px solid var(--grey);
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+
+}
+.footer-div .lang{
+  width: 2rem;
+  margin-right: 5px;
+}

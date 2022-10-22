@@ -1,0 +1,68 @@
+
+:root{
+ /* colors  */
+ --Brightcolor:#FED40D;
+ --primaryBg:#242424;
+ --secondaryBackground:#242424;
+ --grey: rgb(189, 186, 186);
+ --BrightcolorLight:#fed60d63;
+
+
+
+ --p:5px;
+ /* --m:5px; */
+ --mxw:1200px;
+
+ /* fonts */
+ --sFont:2.5rem;
+ --xsFont:1rem;
+
+}
+
+.sub-header{
+ background-color:var(--primaryBg);
+ padding: 0 10px ;
+ width: 100%;
+}
+.sub-header div{
+ /* background-color: red; */
+}
+.sub-header .sub-header-container div >*{
+
+ padding: 10px 0;
+}
+.sub-header-container{
+ display: flex;
+ justify-content: space-between;
+ 
+}
+.sub-header .active{
+ border-bottom: 1px solid var(--Brightcolor);
+ background-color: #404040;
+ padding:  10px !important;
+}
+.sub-header  i{
+ color: var(--Brightcolor);
+}
+.sub-header-container div{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ cursor: pointer;
+}
+.sub-header-container div a, .sub-header-container div h1{
+ text-decoration: none;
+ /* color: #fff; */
+ color: var(--grey);
+ transition: all 0.5s ease-in-out;
+ border-bottom: 1px solid transparent;
+ margin: 0 10px;
+ font-size: 0.7rem;
+}
+.sub-header-container div a:hover{
+ border-bottom: 1px solid var(--Brightcolor);
+}
+
+
+
+

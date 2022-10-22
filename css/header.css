@@ -1,0 +1,86 @@
+:root{
+ /* colors  */
+ --Brightcolor:#FED40D;
+ --primaryBackground:#141414;
+ --secondaryBackground:#242424;
+ --grey: rgb(189, 186, 186);
+ --BrightcolorLight:#fed60d63;
+
+
+
+ --p:5px;
+ /* --m:5px; */
+ --mxw:1200px;
+
+ /* fonts */
+ --sFont:2.5rem;
+ --xsFont:1rem;
+
+}
+
+
+header{
+ background-color: var(--primaryBackground);
+ display: flex;
+ width: 100%;
+ color: white;
+ justify-content: space-between;
+ align-items: center;
+padding: var(--p);
+max-width: var(--mxw); 
+}
+header div{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ /* background-color: green; */
+}
+.brand{
+ margin: 0 20px;
+ font-size: var(--sFont);
+ font-weight: bold;
+ color: #fff;
+}
+i{
+ margin: 0 5px;
+ cursor: pointer;
+ color: var(--grey);
+}
+.brand span{
+ color: var(--Brightcolor);
+ font-family: roboto;
+}
+header div >*{
+ margin: 0 10px;
+}
+.btn{
+ padding: 10px 25px;
+ border-radius: 2px;
+ /* margin: 0 10px; */
+}
+.brand,.lang{
+ cursor: pointer;
+}
+.loginbtn{
+ background-color: transparent;
+ border: 2px solid var(--Brightcolor);
+ cursor: pointer;
+ font-size:var(--xsFont);
+ color: #fff;
+ font-weight: bold;
+}
+.loginbtn:hover{
+ background-color: var(--BrightcolorLight);
+}
+.signupbtn{
+ background-color: var(--Brightcolor);
+ border: 2px solid var(--Brightcolor);
+ cursor: pointer;
+ font-size:var(--xsFont);
+ color: #000;
+ font-weight: bold;
+}
+.lang{
+ width: 40px;
+ border-radius: 50%;
+}
